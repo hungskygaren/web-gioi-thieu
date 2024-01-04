@@ -26,6 +26,10 @@ window.onscroll = () => {
           .querySelector("header nav a[href*=" + id + "]")
           .classList.add("active");
       });
+      // active sections for animation on scroll
+      sec.classList.add("show-animate");
+    } else {
+      sec.classList.remove("show-animate");
     }
   });
   // sticky header
