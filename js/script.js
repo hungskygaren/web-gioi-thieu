@@ -27,9 +27,9 @@ window.onscroll = () => {
           .classList.add("active");
       });
       // active sections for animation on scroll
-      sec.classList.add("show-animate");
+      // sec.classList.add("show-animate");
     } else {
-      sec.classList.remove("show-animate");
+      // sec.classList.remove("show-animate");
     }
   });
   // sticky header
